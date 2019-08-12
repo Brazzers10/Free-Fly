@@ -12,29 +12,48 @@ tuto on
         <meta name="keywords" content="HTML,CSS, Formation informatique">
         <meta name="author" content="NANI Isabelle">
         <link href="lightbox.css" rel="stylesheet">
+        <link href="menu_navigation.css" rel="stylesheet" type="text/css"/>
 
     </head>
     <body>
+        <h1>Galerie</h1>
+        <nav>
+            <ul>
+                <li>
+
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li> 
+                    <a href="01-ma_page.html">Page</a>
+
+                </li>
+                <li>
+                    <a href="02-mes_animaux.html">Liste</a>
+
+                </li>
+                <li>
+                    <a href="02.2-mes_animaux.html">Lien</a>
+
+                </li>
+                <li>
+                    <a href="04-mes_images.html">Image</a>
+
+                </li>
+                <li>
+                    <a href="lightbox.html">Galerie</a>
+                </li>
+                <li>
+                    <a href="CVhtml.html">CV</a>
+
+                </li>
+                <li>
+                    <a href="CV_section.html">CV 2</a>
+                </li>
+            </ul>
+        </nav>   
+
         <!-- Images used to open the lightbox -->
-        <h2 style="text-align:center">Lightbox 
-            <br/>
-            Référence en ligne : 
-            <a target="_blank" href="https://www.w3schools.com/howto/howto_js_lightbox.asp" title="">How To Create a Lightbox - W3Schools</a>
-        </h2>
-        <!-- lightbox
-       https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_lightbox
-       
-       4 images 
-       2 tailles
-       600*400
-       et 
-       1000*350
-       
-       nom�e 1,2,3,4
-       et idem_wide
-       
-       + alt as caption
-        -->
+
         <div class="row">
             <div class="column">
                 <img src="Image/img_3.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
